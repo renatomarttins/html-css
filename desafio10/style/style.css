@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor1: #1C1A26;
+    --cor2: #8C8570;
+    --cor3: #F2CA99;
+    --cor4: #8C6746;
+    --cor5: #593F36;
+
+    --fonte-padrao: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-indent: 10px;
+}
+
+body {
+  background-color: var(--cor4);
+    font-family: var(--fonte-padrao); 
+    
+}
+
+header {
+    background-color: var(--cor4);
+    color: white;
+    
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 20px;
+   
+    
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+nav > a:hover {
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+
+main {
+
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    
+   
+}
+
+main > h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--cor1);
+}
+
+main > p {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 1.3em;
+    color: var(--cor1);
+    
+}
+
+main > article p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+main > article h1,h2 {
+    color: var(--cor1);
+}
+main img {
+    width: 100%;
+}
+
+
+
+
+ div.video {
+    background-color: var(--cor2);
+    margin: 0px -20px 20px -20px;
+    padding:20px ;
+    position: relative;
+    padding-bottom: 59%;
+}
+ div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+
+ }
+
+aside {
+    color: white;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.582);
+}
+
+aside > h3 {
+    background-color: var(--cor5);
+    padding: 10PX;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-type: '\1F5F9\000A0\000A0';
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+footer {
+    background-color:var(--cor5) ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer  a {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+
+}
